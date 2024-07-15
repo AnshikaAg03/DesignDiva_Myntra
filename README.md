@@ -2,8 +2,7 @@
 # Design Diva - Discover fashion that matches your creativity! 💃
 ### An Integration for customization that enhances user engagements on the Myntra Platform
 
-![image](https://github.com/user-attachments/assets/163e1af5-94cc-40b3-a559-7ac7d48693e8)
-
+![image](https://github.com/user-attachments/assets/cc3f493e-4bea-43ea-ac67-4e54168c463b)
 
 
 ## Introduction
@@ -113,6 +112,7 @@
    - If the recommended product matches the user's customization, they can buy it from Myntra.
    - Otherwise, users can interact with Myra, Myntra’s order assistant, to explore further customization options and place their order.
 
+![image](https://github.com/user-attachments/assets/3731b1a7-6ede-4ea7-bf12-83a67d05350c)
 
 
 Warm regards,  
