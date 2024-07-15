@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myra - Myntra Order Assistant</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/Myntralogo.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+</head>
+<body>
+    <div class="image-container">
+        <img src="/static/images/myntra-logo.png" alt="Myntra Logo" class="header-image-up">
+    </div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Myra - Myntra Order Assistant</h2>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <div class="message myra-message">
+                <span>Hello! I'm Myra, your assistant for placing customized orders with Myntra. How can I help you today?</span>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='chats.js') }}"></script>
+</body>
+</html>

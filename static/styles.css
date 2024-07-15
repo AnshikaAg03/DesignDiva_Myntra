@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url(/static/images/backs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#canvasDiv {
+    position: relative;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+}
+
+#tools {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#recommendations {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#recommendations img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#colorPicker {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #EF3A5D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #EF3A5D;
+}
+
+.container {
+    text-align: center;
+}
+
+#main-heading {
+    margin-bottom: 0.1em;
+}
+
+#tagline {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.all-container {
+    border: 2px solid #EF3A5D;
+    padding: 20px;
+    background-color: white;
+}
+
+.header-image {
+    width: 120px;
+    height: auto;
+    margin-right: 0px;
+    float: left;
+}
+
+.header-image-up {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.header-content {
+    overflow: hidden;
+}
+
+.file-input {
+    display: none;
+}
+
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    color: #EF3A5D;
+    border: 2px solid #EF3A5D;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #ff420e;
+    color: #ffffff;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recommendations-container img {
+    margin: 10px;
+    width: calc(20% - 20px);
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recommendations-container {
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommendation-item {
+    flex: 1 0 20%;
+    max-width: 18%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.recommendation-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}

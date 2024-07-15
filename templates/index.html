@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Diva</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/Myntralogo.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <img src="/static/images/myntra-logo.png" alt="Fashion Image" class="header-image-up">
+    <div class="all-container">
+    <div class="header-container">
+        <img src="/static/images/design diva.png" alt="Fashion Image" class="header-image">
+        <div class="header-content">
+          <h1 id="main-heading">Design Diva</h1>
+          <p id="tagline">"Discover fashion that matches your creativity!"</p>
+        </div>
+      </div>
+        <br>
+    <div class="flex-container container">
+    <button onclick="openUpload()">Upload an Image</button>
+    <button onclick="openPaintApp()">Sketch Your Own</button>
+    </div>
+    <br>
+
+    <div id="uploadSection" style="display: none;">
+        <div class="center-container">
+          <input type="file" id="fileInput" class="file-input" onchange="showFileName()">
+          <label for="fileInput" class="custom-file-upload">Choose File</label>
+          <div id="fileName" class="file-name"></div>
+          <br>
+          <br>
+          <button class="button" onclick="uploadFile()">Submit</button>
+        </div>
+      </div>
+      
+</div>
+    <div id="paintApp" style="display: none;">
+    <h1 style="text-align: center;">Time to sketch Diva!</h1>
+    <div class="cent">
+    <input type="color" id="colorPicker" value="#000000">
+    </div>
+    <div id="tools">
+       
+        <button onclick="setTool('pen')">Pen</button>
+        <button onclick="setTool('line')">Line</button>
+        <button onclick="setTool('rectangle')">Rectangle</button>
+        <button onclick="setTool('circle')">Circle</button>
+        <button onclick="setTool('eraser')">Eraser</button>
+        <button onclick="setTool('fill')">Fill</button>
+        <button onclick="clearCanvas()">Clear</button>
+        <button onclick="undo()">Undo</button>
+
+    </div>
+    <div id="canvasDiv">
+        <canvas id="drawingCanvas" width="800" height="600"></canvas>
+    </div>
+    <div class="container">
+      <button onclick="alert('Another page added to your Sketchbook! Keep sketching Diva &#9786;')">Add to Sketch Book</button>
+
+    <button onclick="saveDrawing()">View Similar</button>
+    </div>
+    </div>
+    <br>
+    <div id="recommendations" class="recommendations-container"></div>
+    <div id="orderSection" style="display: none;">
+      <p style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: large;">Can't find what you are looking for?</p>
+      <button onclick="openChatbot()">Customization options with Myntra</button>
+  </div>
+  <img src="/static/images/weforshe-01.png" style="margin-right: 0; margin-bottom: 0; width: 180px;">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
