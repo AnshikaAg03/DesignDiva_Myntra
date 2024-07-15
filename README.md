@@ -2,6 +2,9 @@
 # Design Diva - Discover fashion that matches your creativity! 💃
 ### An Integration for customization that enhances user engagements on the Myntra Platform
 
+![image](https://github.com/user-attachments/assets/163e1af5-94cc-40b3-a559-7ac7d48693e8)
+
+
 
 ## Introduction
 **Design Diva** ✨ is an innovative platform designed to enhance user engagement on the Myntra platform by offering personalized product recommendations and customization options. Users can upload sketches or create designs, and our recommendation system will suggest similar products available on Myntra. 
