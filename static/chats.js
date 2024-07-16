@@ -21,7 +21,7 @@ function addMessage(sender, text) {
 function generateResponse(userText) {
     if (userText.toLowerCase().includes('hello')) {
         return "Hi there! How can I assist you with your order today?";
-    } else if (userText.toLowerCase().includes('customize') || userText.toLowerCase().includes('order')) {
+    } else if (userText.toLowerCase().includes('custom') || userText.toLowerCase().includes('order')) {
         return "Sure! Our seller will soon contact you for the details of the customized product you want to order.";
     } else if (userText.toLowerCase().includes('thank')) {
         return "You're welcome! If you need any further assistance, feel free to ask.";
