@@ -6,7 +6,7 @@
 
 
 ## Introduction
-**Design Diva** ✨ is an innovative platform designed to enhance user engagement on the Myntra platform by offering personalized product recommendations and customization options. Users can upload sketches or create designs, and our recommendation system will suggest similar products available on Myntra. 
+**Design Diva** ✨ is an innovative platform designed to enhance user engagement on the Myntra platform by offering personalized product recommendations and customization options. Users can upload sketches or create designs, and our recommendation system will suggest similar products available on Myntra according to their demand. 
 
 **Myra** 🤖 is a Myntra Order Assistant through which the user can place a customized product order if Myntra's Recommendations do not match their expectations!
 
